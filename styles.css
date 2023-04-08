@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --banner-bg-color:#f9f2e8;
+    --card-bg-color:#f7f7f7;
+    --color-green:#1d442e;
+}
+a {
+    text-decoration: none;
+
+
+}
+.navbar-brand{
+    font-family: 'Poppins';
+    /* font-weight: bolder; */
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d442e;
+    
+}
+.info-header *{
+    color: white;
+}
+select {
+    outline: none;
+    border: none;
+    background-color: #1d442e;
+   
+
+}
+input[type="search"] {
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px; /* to make space for the icon */
+  }
+  
